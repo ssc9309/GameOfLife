@@ -22,8 +22,8 @@ namespace GameOfLife
         //private int gridLengthX = 1000;
         //private int gridLengthY = 800;
 
-        private int gridLengthX = 200;
-        private int gridLengthY = 200;
+        private int gridLengthX = 100;
+        private int gridLengthY = 100;
 
         //array of array
         private int[][] LifeGrid;
@@ -100,7 +100,7 @@ namespace GameOfLife
             }
 
             //DrawLife();
-            //DrawTextLife();
+            DrawTextLife();
         }
 
         private void DrawLife()
